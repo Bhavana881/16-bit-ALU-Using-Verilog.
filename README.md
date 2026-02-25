@@ -11,39 +11,32 @@ Synthesizable RTL design
 
 Operations Supported
 
-ADD:Adds two operands
-SUB:Subtracts second operand from first
-AND:Bitwise AND
-OR:Bitwise OR
-XOR:Bitwise XOR
-NOT:Bitwise inversion
-SHIFT LEFT:Left bit shift
-SHIFT RIGHT:Right bit shift
-COMPARE:Com pares two operands
+ADD:Adds two operands,
+SUB:Subtracts second operand from first,
+AND:Bitwise AND,
+OR:Bitwise OR,
+XOR:Bitwise XOR,
+NOT:Bitwise inversion,
+SHIFT LEFT:Left bit shift,
+SHIFT RIGHT:Right bit shift,
+COMPARE:Com pares two operands.
 
-Status Flags Generated
+Status Flags Generated 
 Carry → Indicates carry/borrow in arithmetic operations
 Zero → Set when result equals zero
 Overflow → Indicates signed overflow
 Negative → Indicates negative result (MSB = 1)
 
-Verification
+
 The ALU functionality was verified using a Verilog testbench and waveform simulation in Xilinx Vivado.
 
-Concepts Used
-Combinational logic design
-Datapath and arithmetic circuits
-Binary arithmetic operations
-Overflow detection
-RTL design and simulation
+Concepts Used are 
+Combinational logic design,
+Datapath and arithmetic circuits,
+Binary arithmetic operations,
+Overflow detection,
+RTL design and simulation.
 
-Tools Used
-Verilog HDL
-Xilinx Vivado Simulator
+Tools Used are Xilinx Vivado Simulator
 
-Applications
-ALUs are fundamental components in:
-CPUs and microprocessors
-Digital signal processors
-Embedded systems
-AI and hardware accelerators
+
